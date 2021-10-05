@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="javas.js"></script>
+
+</head>
+<body>
+
+<h1>Calculator</h1>
+
+
+<table border="1">
+    <tr>
+        <td colspan="3"><input type="text" id="result"/></td>
+
+        <td><input type="button" value="Clear" onclick="clear()"/></td>
+    </tr>
+    <tr>
+
+        <td><input type="button" value="1" onclick="resultati('1')"/></td>
+        <td><input type="button" value="2" onclick="resultati('2')"/></td>
+        <td><input type="button" value="3" onclick="resultati('3')"/></td>
+        <td><input type="button" value="/" onclick="resultati('/')"/></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="4" onclick="resultati('4')"/></td>
+        <td><input type="button" value="5" onclick="resultati('5')"/></td>
+        <td><input type="button" value="6" onclick="resultati('6')"/></td>
+        <td><input type="button" value="-" onclick="resultati('-')"/></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="7" onclick="resultati('7')"/></td>
+        <td><input type="button" value="8" onclick="resultati('8')"/></td>
+        <td><input type="button" value="9" onclick="resultati('9')"/></td>
+        <td><input type="button" value="+" onclick="resultati('+')"/></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="0" onclick="resultati('0')"/></td>
+        <td><input type="button" value="." onclick="resultati('.')"/></td>
+        <td><input type="button" value="=" onclick="rovno()"/></td>
+        <td><input type="button" value="*" onclick="resultati('*')"/></td>
+    </tr>
+</table>
+
+</body>
+</html>

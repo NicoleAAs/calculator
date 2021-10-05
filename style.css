@@ -1,0 +1,19 @@
+fieldset{
+    background-color: lightgrey;
+    border-color: black;
+    margin: 10px;
+
+
+}
+
+legend{
+    margin-bottom: 0px;
+    margin-left: 16px;
+}
+input[type=number]{
+    size: 5px;
+    height: 10px;
+}
+img{
+    size: 100px;
+}
